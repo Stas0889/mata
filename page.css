@@ -201,3 +201,10 @@
 @media(max-width:359px){.vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node1989{font-size:20px}}
 @media(max-width:767px){.vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node1989 strong{font-size:23px}}
 @media(max-width:359px){.vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node1989 strong{font-size:20px}}
+/* Keep the patterned backgrounds behind wrapped copy on phones. */
+@media(max-width:767px){
+  .vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node225{background-color:#2d284b;background-size:cover;padding:24px 0}
+  .vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node225 p:has(>br:only-child){display:none}
+  .vlp-mata3174569-8d95b2-root article:has(> .vlp-mata3174569-8d95b2-node635){width:min(100%,240px);min-width:0;margin-inline:auto;background-color:#242044;background-size:cover;border-radius:28px;padding:20px 12px}
+  .vlp-mata3174569-8d95b2-root .vlp-mata3174569-8d95b2-node635{white-space:normal;overflow-wrap:anywhere}
+}
